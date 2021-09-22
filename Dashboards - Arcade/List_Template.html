@@ -1,0 +1,41 @@
+
+<table style="width:100%">
+	<tbody>
+		<tr style="{expression/StatusOpenCSStext}; width:100%">
+			<td style="width:75%">
+			<h5>{Constatering}</h5>
+
+			<p>Aantal dagen sinds indienen: {DagenOpen}</p>
+
+			<p>Status: {Status}</p>
+
+			<p>Datum: {Inspectiedatum}</p>
+
+			<p>{expression/ZwerfvuilIcon}{expression/OnkruidIcon}{expression/GrofvuilIcon}{expression/NaastplaatsingIcon}{expression/HondenpoepIcon}{expression/GraffitiIcon}</p>
+
+			<table style="width:100%">
+				<tbody>
+					<tr>
+						<th style="text-align:center; width:33%">Open</th>
+						<th style="text-align:center; width:33%">Toegewezen</th>
+						<th style="text-align:center; width:33%">Uitgesteld</th>
+					</tr>
+					<tr>
+						<td style="background-color:{expression/StatusKleurOpen}; font-size:5px; height:5px">&nbsp;</td>
+						<td style="background-color:{expression/StatusKleurToegewezen}; font-size:5px; height:5px">&nbsp;</td>
+						<td style="background-color:{expression/StatusKleurUitgesteld}; font-size:5px; height:5px">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td style="width:25%">
+			<p style="text-align:center">Behandelaar:</p>
+
+			<p style="text-align:center"><img alt="Inspecteur" src="{expression/BehandelaarURL}" style="height:72px; width:72px" /></p>
+			</td>
+		</tr>
+		<tr style="{expression/StatusGeslotenCSStext}; background-color:#dddddd; width:100%">
+			<td>{Constatering}</td>
+		</tr>
+	</tbody>
+</table>
