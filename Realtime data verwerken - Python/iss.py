@@ -41,6 +41,7 @@ def main():
         now = datetime.now()
         try:
             # Update the featurelayer
+            # Todo: create your own featurelayer to update, see line 17
             result_update = fl.edit_features(updates=[feature])
             print(f'{now.strftime("%H:%M:%S")} - Positie ISS geüpdatet')
 
