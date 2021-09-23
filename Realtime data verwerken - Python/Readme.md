@@ -1,4 +1,4 @@
-# GIS Conferentie 2021 Dashboards en Arcade
+# GIS Conferentie 2021 Realtime data verwerken met ArcGIS
 
 ![GIS Conferentie 2021](../images/EGC21_Banner.png)
 
